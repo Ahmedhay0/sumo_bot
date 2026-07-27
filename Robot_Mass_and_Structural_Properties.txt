@@ -1,0 +1,36 @@
+1. Structural & Material Specifications
+----------------------------------------
+* Chassis Material: High-strength Aluminum Alloy
+* Chassis Dimensions (L x W x H): 0.305 m x 0.430 m x 0.105 m
+* Total Mass: 17.14 kg (17,135.43 grams)
+* Volume: 3,683,415.58 mm³
+* Surface Area: 1,596,817.03 mm²
+* Center of Gravity: Low-profile layout optimized for traction and anti-flip stability
+
+2. Mass Properties & Inertia Data (SolidWorks Analysis)
+------------------------------------------------------
+* Total Mass: 17,135.43 g
+* Center of Mass (CoM Coordinates relative to default origin):
+  - X: -36.08 mm
+  - Y: 74.88 mm
+  - Z: 0.29 mm
+
+* Principal Moments of Inertia (Taken at Center of Mass in g·mm²):
+  - Px: 251,595,360.04
+  - Py: 337,529,472.15
+  - Pz: 466,072,873.59
+
+* Principal Axes Vectors:
+  - Ix: (0.97, -0.22, -0.10)
+  - Iy: (-0.11, 0.00, -0.99)
+  - Iz: (0.22, 0.97, -0.02)
+
+* Moments of Inertia at Center of Mass (g·mm²):
+  - Lxx: 263,264,879.28    Lxy: -46,645,468.07    Lxz: -8,014,006.08
+  - Lyx: -46,645,468.07    Lyy: 455,268,140.55    Lyz: 4,982,873.83
+  - Lzx: -8,014,006.08     Lzy: 4,982,873.83      Lzz: 336,664,685.93
+
+* Moments of Inertia at Output Coordinate System (g·mm²):
+  - Ixx: 359,340,976.85    Ixy: -92,943,609.15    Ixz: -8,191,771.37
+  - Iyx: -92,943,609.15    Iyy: 477,580,511.68    Iyz: 5,351,759.99
+  - Izx: -8,191,771.37     Izy: 5,351,759.99      Izz: 455,050,321.90
