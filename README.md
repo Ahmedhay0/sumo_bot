@@ -107,13 +107,15 @@ Movement Test
 ==============================
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
-Installation
+Installation and running
 ==============================
 mkdir -p ros2_ws/src
 cd ros2_ws/src
 git clone https://github.com/Ahmedhay0/sumo_bot.git
 cd ..
 colcon build --packages-select sumo_bot --symlink-install
+source install/setup.bash
+ros2 launch sumo_bot robot.launch.py
 
 
 
