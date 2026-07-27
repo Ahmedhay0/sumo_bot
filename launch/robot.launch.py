@@ -55,7 +55,7 @@ def generate_launch_description():
                         executable='create',
                         arguments=['-topic', 'robot_description',
                                    '-name', 'sumo_bot',
-                                   '-z', '0.9'],
+                                   '-z', '0.045'],
                         output='screen'
     )
 
