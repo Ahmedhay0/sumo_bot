@@ -111,7 +111,7 @@ Installation
 ==============================
 mkdir -p ros2_ws/src
 cd ros2_ws/src
-git clone 
+git clone https://github.com/Ahmedhay0/sumo_bot.git
 cd ..
 colcon build --packages-select sumo_bot --symlink-install
 
